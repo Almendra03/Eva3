@@ -1,0 +1,56 @@
+# Eva3
+Evaluacion3
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/bulma/css/bulma.min.css">
+<title>Arriendo de Disfraces</title>
+</head>
+<body>
+	 <header>
+     <h1>Disfraces Nanita</h1>
+	 <h4>Conviertete en el alma de la fiesta</h4>
+	 </header> 
+	 
+	
+<nav>
+    <tr>
+	Arrendamos disfraces originales para cualquier ocasión, al mejor precio
+	</tr>
+	<hr>
+</nav>
+<section>	 
+
+<button type="button" class="btn btn-secondary"><a href="paginas/DisfracesAdultos.html">Disfraces para Adultos</a></button>
+<button type="button" class="btn btn-success"><a href="paginas/DisfracesNiños.html">Disfraces para Niños</a></button>
+<button type="button" class="btn btn-primary"><a href="paginas/contacto.html">Contactanos</a></button>
+</section>
+<br></br>
+<article>
+<tr>
+	 <td><img src="img/logo.jpg" width="400px" height="250px">
+     </td>
+	 <br>
+	 <br>
+	 <br>
+	 <td><img src="img/disfraces.jpg" width="200px" height="150px">
+     </td>
+	 <td><img src="img/disfraces2.jpg" width="200px" height="150px">
+     </td>
+	 <td><img src="img/disfraces3.jpg" width="200px" height="100px">
+     </td>
+</tr>
+</article>
+<hr>
+
+<footer>
+Ven a divertirte, nos ubicamos en: Vicuña Mackena #0943
+</footer>
+
+	
+	
+	 
+</body>
+</head>
