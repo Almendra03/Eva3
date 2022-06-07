@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/bulma/css/bulma.min.css">
+<script type="text/javascript" src="des.js"></script>
+<title>Arriendo de Disfraces</title>
+</head>
+<body>
+	 <header>
+     <h1>Disfraces Nanita</h1>
+	 <h4>Conviertete en el alma de la fiesta</h4>
+	 </header> 
+	 
+	
+<nav>
+    <tr>
+	Arrendamos disfraces originales para cualquier ocasión, al mejor precio
+	</tr>
+	<hr>
+</nav>
+<section>	 
+
+<button type="button" class="btn btn-secondary"><a href="paginas/DisfracesAdultos.html">Disfraces para Adultos</a></button>
+<button type="button" class="btn btn-success"><a href="paginas/DisfracesNiños.html">Disfraces para Niños</a></button>
+<button type="button" class="btn btn-primary"><a href="paginas/contacto.html">Contactanos</a></button>
+</section>
+<br></br>
+<br></br>		
+<article align="center"> 
+<tr>
+	 <td><img src="img/logo.jpg" width="400px" height="250px">
+     </td>
+	 <br>
+	 <br>
+	 <br>
+	 <td><img src="img/disfraces.jpg" width="200px" height="150px">
+     </td>
+	 <td><img src="img/disfraces2.jpg" width="200px" height="150px">
+     </td>
+</tr>
+</article>
+<br>
+<table align="center">
+		<tr>
+		<td>
+		
+		<form name="miform" method="post" action="">
+
+		<fieldset>
+		<h1><legend><strong>Encuentra tu Disfraz</strong></legend></h1>
+			
+		<label for="Tipo">Tipo</label><br>
+		<input size="6" id="tipo" name="tipo" type="text"><br>	
+		
+		<label for="nombre">Nombre</label> <br>  
+		<input name="nombre" id="nombre" size="50" maxlength="70" type="text"><br>
+
+		<label for="precio">Precio</label><br> 
+		<input size="5" id="precio" name="precio" type="text"><br>
+		
+		<label for="talla">Talla</label> <br>  
+		<input name="talla" id="talla" size="50" maxlength="70" type="text"><br>
+		
+		<label for="stock">Stock</label><br> 
+		<input size="3" id="stock" name="stock" type="text"><br>
+		<br>
+		<div>
+		<input type="button" onclick="ingresar()" value="Ingresar">
+		<br>
+		<input type="button" onclick="mostrar()" value="Mostrar Stock">
+		<br>
+		<input type="button" onclick="actualizarPrecioStock()" value="Actualizar Precio/Stock">
+		<br>
+		<input type="button" onclick="eliminar()" value="Eliminar">
+		<br>
+		<input type="button" onclick="cargarfoto()" value="Mostrar imagen">
+
+		</div>
+		</fieldset>
+		</td>
+		</tr>
+		
+		</table>
+		</form>
+<hr>
+
+
+	
+	
+	 
+</body>
+<br>
+<footer>
+Ven a divertirte, nos ubicamos en: Vicuña Mackena #0943
+</footer>
+
+</head>
